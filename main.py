@@ -30,12 +30,6 @@ def main():
             minutes, seconds = divmod(time, 60)
             hours, minutes = divmod(minutes, 60)
             st.write(f"Travel Time: {round(hours)}h, {round(minutes)}m, {round(seconds)}s")
-        
-        
-        
-        
-    
-
 
 if __name__ == "__main__":
     main()
